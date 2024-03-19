@@ -11,6 +11,13 @@
 		8B053E4B2BA9AE7A00AF4516 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B053E4A2BA9AE7A00AF4516 /* ContentView.swift */; };
 		8B053E4D2BA9AE7C00AF4516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B053E4C2BA9AE7C00AF4516 /* Assets.xcassets */; };
 		8B053E502BA9AE7C00AF4516 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B053E4F2BA9AE7C00AF4516 /* Preview Assets.xcassets */; };
+		8B053E572BA9AEF000AF4516 /* EachPatternView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B053E562BA9AEF000AF4516 /* EachPatternView.swift */; };
+		8B053E592BA9AF7D00AF4516 /* PatternDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B053E582BA9AF7D00AF4516 /* PatternDetailView.swift */; };
+		8B053E5B2BA9B0AB00AF4516 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B053E5A2BA9B0AB00AF4516 /* MainView.swift */; };
+		8B053E5D2BA9B17500AF4516 /* NPLAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B053E5C2BA9B17500AF4516 /* NPLAssistantView.swift */; };
+		8B053E5F2BAA17AE00AF4516 /* PatternModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B053E5E2BAA17AE00AF4516 /* PatternModel.swift */; };
+		8B053E622BAA201200AF4516 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B053E612BAA201200AF4516 /* Inter-Bold.ttf */; };
+		8B053E642BAA201E00AF4516 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B053E632BAA201E00AF4516 /* Inter-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,14 @@
 		8B053E4A2BA9AE7A00AF4516 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B053E4C2BA9AE7C00AF4516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B053E4F2BA9AE7C00AF4516 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B053E562BA9AEF000AF4516 /* EachPatternView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachPatternView.swift; sourceTree = "<group>"; };
+		8B053E582BA9AF7D00AF4516 /* PatternDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternDetailView.swift; sourceTree = "<group>"; };
+		8B053E5A2BA9B0AB00AF4516 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8B053E5C2BA9B17500AF4516 /* NPLAssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPLAssistantView.swift; sourceTree = "<group>"; };
+		8B053E5E2BAA17AE00AF4516 /* PatternModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternModel.swift; sourceTree = "<group>"; };
+		8B053E612BAA201200AF4516 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		8B053E632BAA201E00AF4516 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		8B053E652BAA202F00AF4516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +66,16 @@
 		8B053E472BA9AE7A00AF4516 /* POPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				8B053E652BAA202F00AF4516 /* Info.plist */,
 				8B053E482BA9AE7A00AF4516 /* POPatternsApp.swift */,
 				8B053E4A2BA9AE7A00AF4516 /* ContentView.swift */,
+				8B053E562BA9AEF000AF4516 /* EachPatternView.swift */,
+				8B053E582BA9AF7D00AF4516 /* PatternDetailView.swift */,
+				8B053E5A2BA9B0AB00AF4516 /* MainView.swift */,
+				8B053E5C2BA9B17500AF4516 /* NPLAssistantView.swift */,
+				8B053E5E2BAA17AE00AF4516 /* PatternModel.swift */,
 				8B053E4C2BA9AE7C00AF4516 /* Assets.xcassets */,
+				8B053E602BAA1FEA00AF4516 /* Fonts */,
 				8B053E4E2BA9AE7C00AF4516 /* Preview Content */,
 			);
 			path = POPatterns;
@@ -65,6 +87,15 @@
 				8B053E4F2BA9AE7C00AF4516 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B053E602BAA1FEA00AF4516 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8B053E632BAA201E00AF4516 /* Inter-Regular.ttf */,
+				8B053E612BAA201200AF4516 /* Inter-Bold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +156,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B053E622BAA201200AF4516 /* Inter-Bold.ttf in Resources */,
 				8B053E502BA9AE7C00AF4516 /* Preview Assets.xcassets in Resources */,
+				8B053E642BAA201E00AF4516 /* Inter-Regular.ttf in Resources */,
 				8B053E4D2BA9AE7C00AF4516 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +170,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B053E5D2BA9B17500AF4516 /* NPLAssistantView.swift in Sources */,
 				8B053E4B2BA9AE7A00AF4516 /* ContentView.swift in Sources */,
+				8B053E572BA9AEF000AF4516 /* EachPatternView.swift in Sources */,
+				8B053E592BA9AF7D00AF4516 /* PatternDetailView.swift in Sources */,
+				8B053E5B2BA9B0AB00AF4516 /* MainView.swift in Sources */,
+				8B053E5F2BAA17AE00AF4516 /* PatternModel.swift in Sources */,
 				8B053E492BA9AE7A00AF4516 /* POPatternsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +313,8 @@
 				DEVELOPMENT_TEAM = 9NYCJV4J3K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = POPatterns/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +344,8 @@
 				DEVELOPMENT_TEAM = 9NYCJV4J3K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = POPatterns/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
